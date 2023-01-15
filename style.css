@@ -1,13 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
 }
 
 
 .wrapper{
     
-    background-color: rgb(228, 183, 129);
+    background-color: #F4ECE6;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -19,11 +20,11 @@
 }
 
 .container{
-   background-color: whitesmoke;
-   height: 400px;
-   width: 600px;
+   background-color: #FEFEFE;
+   height: 420px;
+   width: 700px;
    border-radius: 20px;
-   box-shadow: 5px 5px 10px black;
+   
    display: grid;
    grid-template-columns: repeat(2,300px);
    grid-template-rows: repeat(1,1);
@@ -46,59 +47,77 @@
 
 .contant_1{
     height: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;    
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    display: flex;  
+    color: grey;  
+    letter-spacing: 5px;
+    font-size: 20px;
+   
   
 }
 #cpmg{
+    font-family: 'Fraunces', serif;
     align-self: flex-end;
 }
 .contant_2{
-    height: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex; 
-    justify-content: flex-start; 
+    
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Quattrocento', serif;
+    width: 350px;
     overflow: hidden;  
+    
   
 }
 h1{
     vertical-align: top;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .contant_3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    width: 350px;
+    
+    
+}
+#para{
+    font-size: 22px;
 }
 
 .contant_4{
     display: flex; 
-    justify-content: last baseline;
-    align-content: center;    
+    justify-content: baseline;
+    align-content: center;  
+    width: 350px;  
 }
 
 
 #rs{
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 40px;
     margin-right: 10px;
-    color: rgb(32, 131, 32);;
+    color: #3C8168;
 }
 #rsp{
     justify-content: center;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 .contant_5{
     height: 80px;
-    display: flex;
-    /* justify-content: center; */
+    
+    width: 350px;
+   
 
 }
 button{
     align-items: center;
     height: 50px;
-    width: 250px;
-    background-color: rgb(32, 131, 32);
+    width: 340px;
+    background-color: #3C8168;
     border-radius: 12px;
     color: aliceblue;
     font-size: 20px;
